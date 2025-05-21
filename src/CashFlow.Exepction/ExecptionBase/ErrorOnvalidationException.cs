@@ -5,7 +5,6 @@ public class ErrorOnvalidationException : CashFlowExepction
     public ErrorOnvalidationException(List<string> errorMessages)
     {
         Errors = errorMessages;
-        Console.WriteLine("Os erros sao:" + Errors);
-    }
-
+        
+    } 
 }
