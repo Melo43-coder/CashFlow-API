@@ -7,14 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="UseCases\Expenses\Register\RegisterExpenseUseCase.cs~RF53cdac.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CAshFLow.Communication\CAshFLow.Communication.csproj" />
     <ProjectReference Include="..\CashFlow.Exepction\CashFlow.Exepction.csproj" />
+    <ProjectReference Include="..\CashFlow.Infra\CashFlow.Infra.csproj" />
     <ProjectReference Include="..\ClassFlow.Domain\ClassFlow.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="12.0.0-preview1" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace CAshFLow.Communication.Responses;
 public class ResponseRegisterExpenseJson
 {
-    public string Title { get; set; }
+    public string tittle { get; set; }
 
 }
